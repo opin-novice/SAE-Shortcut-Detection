@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Large model weights and archives
+data/
+data.zip
+out.zip
+out/
+results/sae_pooled_activations.pt
+
+# Claude Code internals
+.claude/
+.planning/
+
+# OS
+.DS_Store
+Thumbs.db

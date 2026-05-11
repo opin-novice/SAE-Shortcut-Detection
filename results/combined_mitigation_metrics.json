@@ -1,0 +1,181 @@
+{
+  "strategy": "SAE_Ablation + DRO_Reweighting",
+  "n_ablated_features": 36,
+  "bias_attr": "dark_border",
+  "per_ratio": {
+    "50/50": {
+      "vanilla": {
+        "aligned": 0.976158940397351,
+        "shifted": 0.9784615384615385,
+        "gap": -0.002302598064187533
+      },
+      "ablation": {
+        "aligned": 0.9748344370860927,
+        "shifted": 0.9753846153846154,
+        "gap": -0.0005501782985226633
+      },
+      "reweight": {
+        "aligned": 0.9735099337748344,
+        "shifted": 0.9738461538461538,
+        "gap": -0.000336220071319393
+      },
+      "combined": {
+        "aligned": 0.9708609271523179,
+        "shifted": 0.9723076923076923,
+        "gap": -0.001446765155374452
+      }
+    },
+    "70/30": {
+      "vanilla": {
+        "aligned": 0.9920529801324504,
+        "shifted": 0.9769230769230769,
+        "gap": 0.015129903209373463
+      },
+      "ablation": {
+        "aligned": 0.9854304635761589,
+        "shifted": 0.9676923076923077,
+        "gap": 0.017738155883851192
+      },
+      "reweight": {
+        "aligned": 0.9854304635761589,
+        "shifted": 0.98,
+        "gap": 0.00543046357615895
+      },
+      "combined": {
+        "aligned": 0.9841059602649007,
+        "shifted": 0.98,
+        "gap": 0.004105960264900732
+      }
+    },
+    "80/19": {
+      "vanilla": {
+        "aligned": 0.9867549668874173,
+        "shifted": 0.9615384615384616,
+        "gap": 0.025216505348955698
+      },
+      "ablation": {
+        "aligned": 0.9867549668874173,
+        "shifted": 0.96,
+        "gap": 0.026754966887417297
+      },
+      "reweight": {
+        "aligned": 0.9867549668874173,
+        "shifted": 0.9784615384615385,
+        "gap": 0.008293428425878768
+      },
+      "combined": {
+        "aligned": 0.9841059602649007,
+        "shifted": 0.9830769230769231,
+        "gap": 0.0010290371879776439
+      }
+    },
+    "90/9": {
+      "vanilla": {
+        "aligned": 0.9947019867549669,
+        "shifted": 0.9461538461538461,
+        "gap": 0.04854814060112078
+      },
+      "ablation": {
+        "aligned": 0.9933774834437086,
+        "shifted": 0.9353846153846154,
+        "gap": 0.057992868059093206
+      },
+      "reweight": {
+        "aligned": 0.9867549668874173,
+        "shifted": 0.9846153846153847,
+        "gap": 0.002139582272032592
+      },
+      "combined": {
+        "aligned": 0.9854304635761589,
+        "shifted": 0.9846153846153847,
+        "gap": 0.0008150789607742626
+      }
+    },
+    "95/5": {
+      "vanilla": {
+        "aligned": 0.9947019867549669,
+        "shifted": 0.9092307692307692,
+        "gap": 0.08547121752419773
+      },
+      "ablation": {
+        "aligned": 0.9960264900662251,
+        "shifted": 0.9046153846153846,
+        "gap": 0.09141110545084052
+      },
+      "reweight": {
+        "aligned": 0.9894039735099338,
+        "shifted": 0.9892307692307692,
+        "gap": 0.0001732042791645627
+      },
+      "combined": {
+        "aligned": 0.9867549668874173,
+        "shifted": 0.9846153846153847,
+        "gap": 0.002139582272032592
+      }
+    },
+    "99/1": {
+      "vanilla": {
+        "aligned": 0.9973509933774835,
+        "shifted": 0.7830769230769231,
+        "gap": 0.21427407030056034
+      },
+      "ablation": {
+        "aligned": 0.9973509933774835,
+        "shifted": 0.796923076923077,
+        "gap": 0.2004279164544065
+      },
+      "reweight": {
+        "aligned": 0.9920529801324504,
+        "shifted": 0.9815384615384616,
+        "gap": 0.010514518593988775
+      },
+      "combined": {
+        "aligned": 0.9880794701986755,
+        "shifted": 0.9784615384615385,
+        "gap": 0.009617931737136987
+      }
+    }
+  },
+  "worst_group_95_5": {
+    "Vanilla": {
+      "worst_acc": 0.906183368869936,
+      "worst_group": "tumor+low_border (conflict)",
+      "all_groups": {
+        "tumor+high_border (aligned)": 0.9980806142034548,
+        "tumor+low_border (conflict)": 0.906183368869936,
+        "notumor+low_border (aligned)": 0.9871794871794872,
+        "notumor+high_border (conflict)": 0.9171270718232044
+      }
+    },
+    "SAE Ablation only": {
+      "worst_acc": 0.8976545842217484,
+      "worst_group": "tumor+low_border (conflict)",
+      "all_groups": {
+        "tumor+high_border (aligned)": 0.9980806142034548,
+        "tumor+low_border (conflict)": 0.8976545842217484,
+        "notumor+low_border (aligned)": 0.9914529914529915,
+        "notumor+high_border (conflict)": 0.9226519337016574
+      }
+    },
+    "DRO Reweighting only": {
+      "worst_acc": 0.9743589743589743,
+      "worst_group": "notumor+low_border (aligned)",
+      "all_groups": {
+        "tumor+high_border (aligned)": 0.9961612284069098,
+        "tumor+low_border (conflict)": 0.9893390191897654,
+        "notumor+low_border (aligned)": 0.9743589743589743,
+        "notumor+high_border (conflict)": 0.988950276243094
+      }
+    },
+    "COMBINED (Ablation+DRO)": {
+      "worst_acc": 0.9658119658119658,
+      "worst_group": "notumor+low_border (aligned)",
+      "all_groups": {
+        "tumor+high_border (aligned)": 0.9961612284069098,
+        "tumor+low_border (conflict)": 0.9829424307036247,
+        "notumor+low_border (aligned)": 0.9658119658119658,
+        "notumor+high_border (conflict)": 0.988950276243094
+      }
+    }
+  }
+}

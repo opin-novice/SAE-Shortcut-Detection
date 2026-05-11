@@ -1,0 +1,439 @@
+[
+  {
+    "image_index": 0,
+    "report": "Right frontal lobe enhancing mass; no midline shift",
+    "parsed": {
+      "raw": "Right frontal lobe enhancing mass; no midline shift",
+      "pathologies": [
+        "mass"
+      ],
+      "locations": [
+        "right",
+        "frontal",
+        "midline"
+      ],
+      "negated": []
+    },
+    "queries_per_iter": [
+      [
+        "right mass",
+        "frontal mass",
+        "midline mass"
+      ]
+    ],
+    "final_queries": [
+      "right mass",
+      "frontal mass",
+      "midline mass"
+    ],
+    "iterations": 1,
+    "confidence": 0.6825883668982735,
+    "top_patches": [
+      {
+        "idx": 91,
+        "row": 6,
+        "col": 7,
+        "semantic": 0.6295410394668579,
+        "spatial": 1.0,
+        "total": 0.7777246236801147,
+        "bbox_224": [
+          112,
+          96,
+          128,
+          112
+        ]
+      },
+      {
+        "idx": 65,
+        "row": 4,
+        "col": 9,
+        "semantic": 0.8642776608467102,
+        "spatial": 0.44776955246925354,
+        "total": 0.6976744532585144,
+        "bbox_224": [
+          144,
+          64,
+          160,
+          80
+        ]
+      },
+      {
+        "idx": 80,
+        "row": 5,
+        "col": 10,
+        "semantic": 0.9775395393371582,
+        "spatial": 0.2753707766532898,
+        "total": 0.6966720819473267,
+        "bbox_224": [
+          160,
+          80,
+          176,
+          96
+        ]
+      },
+      {
+        "idx": 94,
+        "row": 6,
+        "col": 10,
+        "semantic": 1.0,
+        "spatial": 0.23249781131744385,
+        "total": 0.6929991245269775,
+        "bbox_224": [
+          160,
+          96,
+          176,
+          112
+        ]
+      },
+      {
+        "idx": 106,
+        "row": 7,
+        "col": 8,
+        "semantic": 0.748356819152832,
+        "spatial": 0.6072574257850647,
+        "total": 0.6919170618057251,
+        "bbox_224": [
+          128,
+          112,
+          144,
+          128
+        ]
+      },
+      {
+        "idx": 120,
+        "row": 8,
+        "col": 8,
+        "semantic": 0.8644461035728455,
+        "spatial": 0.36882102489471436,
+        "total": 0.6661961078643799,
+        "bbox_224": [
+          128,
+          128,
+          144,
+          144
+        ]
+      },
+      {
+        "idx": 105,
+        "row": 7,
+        "col": 7,
+        "semantic": 0.45152902603149414,
+        "spatial": 0.8667154908180237,
+        "total": 0.6176036596298218,
+        "bbox_224": [
+          112,
+          112,
+          128,
+          128
+        ]
+      },
+      {
+        "idx": 36,
+        "row": 2,
+        "col": 8,
+        "semantic": 0.692956805229187,
+        "spatial": 0.45729580521583557,
+        "total": 0.5986924171447754,
+        "bbox_224": [
+          128,
+          32,
+          144,
+          48
+        ]
+      }
+    ],
+    "spatial_prior_max": 1.0,
+    "alpha": 0.6,
+    "beta": 0.4
+  },
+  {
+    "image_index": 1,
+    "report": "Left temporal lobe lesion with surrounding edema",
+    "parsed": {
+      "raw": "Left temporal lobe lesion with surrounding edema",
+      "pathologies": [
+        "lesion",
+        "edema"
+      ],
+      "locations": [
+        "left",
+        "temporal"
+      ],
+      "negated": []
+    },
+    "queries_per_iter": [
+      [
+        "left lesion",
+        "temporal lesion",
+        "left edema",
+        "temporal edema"
+      ]
+    ],
+    "final_queries": [
+      "left lesion",
+      "temporal lesion",
+      "left edema",
+      "temporal edema"
+    ],
+    "iterations": 1,
+    "confidence": 0.7277091452764664,
+    "top_patches": [
+      {
+        "idx": 116,
+        "row": 8,
+        "col": 4,
+        "semantic": 0.7542941570281982,
+        "spatial": 0.9098439812660217,
+        "total": 0.8165141344070435,
+        "bbox_224": [
+          64,
+          128,
+          80,
+          144
+        ]
+      },
+      {
+        "idx": 101,
+        "row": 7,
+        "col": 3,
+        "semantic": 0.6664221882820129,
+        "spatial": 0.8278159499168396,
+        "total": 0.7309796810150146,
+        "bbox_224": [
+          48,
+          112,
+          64,
+          128
+        ]
+      },
+      {
+        "idx": 113,
+        "row": 8,
+        "col": 1,
+        "semantic": 0.7281342148780823,
+        "spatial": 0.7184293866157532,
+        "total": 0.7242523431777954,
+        "bbox_224": [
+          16,
+          128,
+          32,
+          144
+        ]
+      },
+      {
+        "idx": 100,
+        "row": 7,
+        "col": 2,
+        "semantic": 0.6896640658378601,
+        "spatial": 0.7651375532150269,
+        "total": 0.7198535203933716,
+        "bbox_224": [
+          32,
+          112,
+          48,
+          128
+        ]
+      },
+      {
+        "idx": 102,
+        "row": 7,
+        "col": 4,
+        "semantic": 0.684221625328064,
+        "spatial": 0.7651375532150269,
+        "total": 0.716588020324707,
+        "bbox_224": [
+          64,
+          112,
+          80,
+          128
+        ]
+      },
+      {
+        "idx": 86,
+        "row": 6,
+        "col": 2,
+        "semantic": 0.8085399866104126,
+        "spatial": 0.5496973395347595,
+        "total": 0.7050029635429382,
+        "bbox_224": [
+          32,
+          96,
+          48,
+          112
+        ]
+      },
+      {
+        "idx": 87,
+        "row": 6,
+        "col": 3,
+        "semantic": 0.7702676057815552,
+        "spatial": 0.5947273373603821,
+        "total": 0.7000515460968018,
+        "bbox_224": [
+          48,
+          96,
+          64,
+          112
+        ]
+      },
+      {
+        "idx": 141,
+        "row": 10,
+        "col": 1,
+        "semantic": 0.7407931089401245,
+        "spatial": 0.6333929896354675,
+        "total": 0.6978330612182617,
+        "bbox_224": [
+          16,
+          160,
+          32,
+          176
+        ]
+      }
+    ],
+    "spatial_prior_max": 1.0,
+    "alpha": 0.6,
+    "beta": 0.4
+  },
+  {
+    "image_index": 2,
+    "report": "No intracranial mass; ventricles normal",
+    "parsed": {
+      "raw": "No intracranial mass; ventricles normal",
+      "pathologies": [
+        "mass"
+      ],
+      "locations": [],
+      "negated": [
+        "mass"
+      ]
+    },
+    "queries_per_iter": [
+      [
+        "No intracranial mass; ventricles normal"
+      ]
+    ],
+    "final_queries": [
+      "No intracranial mass; ventricles normal"
+    ],
+    "iterations": 1,
+    "confidence": 0.7623470492574254,
+    "top_patches": [
+      {
+        "idx": 90,
+        "row": 6,
+        "col": 6,
+        "semantic": 0.786030650138855,
+        "spatial": 1.0,
+        "total": 0.871618390083313,
+        "bbox_224": [
+          96,
+          96,
+          112,
+          112
+        ]
+      },
+      {
+        "idx": 120,
+        "row": 8,
+        "col": 8,
+        "semantic": 0.7939841747283936,
+        "spatial": 0.9200763702392578,
+        "total": 0.8444210290908813,
+        "bbox_224": [
+          128,
+          128,
+          144,
+          144
+        ]
+      },
+      {
+        "idx": 121,
+        "row": 8,
+        "col": 9,
+        "semantic": 0.6975602507591248,
+        "spatial": 0.8465405702590942,
+        "total": 0.7571523785591125,
+        "bbox_224": [
+          144,
+          128,
+          160,
+          144
+        ]
+      },
+      {
+        "idx": 118,
+        "row": 8,
+        "col": 6,
+        "semantic": 0.6000932455062866,
+        "spatial": 0.9592061042785645,
+        "total": 0.7437384128570557,
+        "bbox_224": [
+          96,
+          128,
+          112,
+          144
+        ]
+      },
+      {
+        "idx": 76,
+        "row": 5,
+        "col": 6,
+        "semantic": 0.556854248046875,
+        "spatial": 0.9592061042785645,
+        "total": 0.7177950143814087,
+        "bbox_224": [
+          96,
+          80,
+          112,
+          96
+        ]
+      },
+      {
+        "idx": 119,
+        "row": 8,
+        "col": 7,
+        "semantic": 0.5500751733779907,
+        "spatial": 0.9592061042785645,
+        "total": 0.713727593421936,
+        "bbox_224": [
+          112,
+          128,
+          128,
+          144
+        ]
+      },
+      {
+        "idx": 75,
+        "row": 5,
+        "col": 5,
+        "semantic": 0.5734559893608093,
+        "spatial": 0.9200763702392578,
+        "total": 0.7121041417121887,
+        "bbox_224": [
+          80,
+          80,
+          96,
+          96
+        ]
+      },
+      {
+        "idx": 61,
+        "row": 4,
+        "col": 5,
+        "semantic": 0.6168044805526733,
+        "spatial": 0.8465405106544495,
+        "total": 0.7086989283561707,
+        "bbox_224": [
+          80,
+          64,
+          96,
+          80
+        ]
+      }
+    ],
+    "spatial_prior_max": 1.0,
+    "alpha": 0.6,
+    "beta": 0.4
+  }
+]

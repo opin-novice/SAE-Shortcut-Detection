@@ -1,0 +1,8 @@
+{
+  "mitigation_attr": "dark_border",
+  "n_shortcuts_single": 27,
+  "n_shortcuts_union": 36,
+  "n_shortcuts_highcorr": 22,
+  "shifted_test_size": 650,
+  "aligned_test_size": 755
+}

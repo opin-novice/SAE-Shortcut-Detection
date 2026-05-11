@@ -1,0 +1,110 @@
+{
+  "baseline_conflicting_acc": 1.0,
+  "active_contrast_attr": "edge_density",
+  "bias_ranking": [
+    {
+      "attribute": "dark_border",
+      "probe_acc": 0.9288762446657184,
+      "n_shortcut_features": 27,
+      "max_r_spurious": 0.6131539647875662,
+      "imbalance": 0.09011804795456696,
+      "crosstab": {
+        "tumor_low": 469,
+        "tumor_high": 521,
+        "notumor_low": 234,
+        "notumor_high": 181
+      }
+    },
+    {
+      "attribute": "texture_uniformity",
+      "probe_acc": 0.844950213371266,
+      "n_shortcut_features": 24,
+      "max_r_spurious": 0.46997708994646614,
+      "imbalance": 0.6177680418451026,
+      "crosstab": {
+        "tumor_low": 676,
+        "tumor_high": 314,
+        "notumor_low": 27,
+        "notumor_high": 388
+      }
+    },
+    {
+      "attribute": "intensity",
+      "probe_acc": 0.8748221906116643,
+      "n_shortcut_features": 22,
+      "max_r_spurious": 0.47812331754046294,
+      "imbalance": 0.3031520019341382,
+      "crosstab": {
+        "tumor_low": 584,
+        "tumor_high": 406,
+        "notumor_low": 119,
+        "notumor_high": 296
+      }
+    },
+    {
+      "attribute": "skull_ratio",
+      "probe_acc": 0.8406827880512091,
+      "n_shortcut_features": 22,
+      "max_r_spurious": 0.5667941251217666,
+      "imbalance": 0.03198247536232357,
+      "crosstab": {
+        "tumor_low": 486,
+        "tumor_high": 504,
+        "notumor_low": 217,
+        "notumor_high": 198
+      }
+    },
+    {
+      "attribute": "edge_density",
+      "probe_acc": 0.8975817923186344,
+      "n_shortcut_features": 21,
+      "max_r_spurious": 0.4288467064666239,
+      "imbalance": 0.5835706462026063,
+      "crosstab": {
+        "tumor_low": 666,
+        "tumor_high": 324,
+        "notumor_low": 37,
+        "notumor_high": 378
+      }
+    },
+    {
+      "attribute": "freq_ratio",
+      "probe_acc": 0.8150782361308677,
+      "n_shortcut_features": 13,
+      "max_r_spurious": 0.3698516023005719,
+      "imbalance": 0.5904101253311056,
+      "crosstab": {
+        "tumor_low": 668,
+        "tumor_high": 322,
+        "notumor_low": 35,
+        "notumor_high": 380
+      }
+    },
+    {
+      "attribute": "contrast",
+      "probe_acc": 0.7724039829302988,
+      "n_shortcut_features": 12,
+      "max_r_spurious": 0.3494130874496352,
+      "imbalance": 0.4228428866828746,
+      "crosstab": {
+        "tumor_low": 619,
+        "tumor_high": 371,
+        "notumor_low": 84,
+        "notumor_high": 331
+      }
+    },
+    {
+      "attribute": "aspect_ratio",
+      "probe_acc": 0.9487908961593172,
+      "n_shortcut_features": 4,
+      "max_r_spurious": 0.26979439049740694,
+      "imbalance": 0.2737738834055579,
+      "crosstab": {
+        "tumor_low": 970,
+        "tumor_high": 20,
+        "notumor_low": 293,
+        "notumor_high": 122
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+[submodule "patchsae"]
+	path = patchsae
+	url = https://github.com/dynamical-inference/patchsae
